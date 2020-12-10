@@ -53,15 +53,15 @@ function Navbar({
 
   return (
     <animated.div className="Navbar" style={spring}>
-      <div className="navbar-left" onClick={handleLangaugeSwitcher.bind(this)}>
+      {/* <div className="navbar-left" onClick={handleLangaugeSwitcher.bind(this)}>
         {locales[currentLanguage]}
-      </div>
+      </div> */}
 
-      <div className="navbar-middle">
+      {/* <div className="navbar-middle">
         <Link to="/" onClick={setExpand.bind(this, false)}>
           Covid19<span>India</span>
         </Link>
-      </div>
+      </div> */}
 
       <div
         className="navbar-right"
@@ -81,7 +81,7 @@ function Navbar({
                 <Icon.Home {...activeNavIcon('/')} />
               </span>
             </Link>
-            <Link to="/blog">
+            {/* <Link to="/blog">
               <span>
                 <Icon.Book {...activeNavIcon('/blog')} />
               </span>
@@ -90,7 +90,7 @@ function Navbar({
               <span>
                 <Icon.HelpCircle {...activeNavIcon('/about')} />
               </span>
-            </Link>
+            </Link> */}
             <span>
               <SunMoon {...{darkMode}} />
             </span>
@@ -98,7 +98,7 @@ function Navbar({
         )}
       </div>
 
-      {transitions.map(({item, key, props}) =>
+      {/* {transitions.map(({item, key, props}) =>
         item ? (
           <animated.div key={key} style={props}>
             <Expand {...{pages, setExpand, darkMode, windowSize}} />
@@ -106,7 +106,7 @@ function Navbar({
         ) : (
           <animated.div key={key} style={props}></animated.div>
         )
-      )}
+      )} */}
     </animated.div>
   );
 }

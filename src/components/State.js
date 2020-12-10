@@ -292,7 +292,7 @@ function State() {
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }
