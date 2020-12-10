@@ -58,7 +58,7 @@ function About() {
         })}
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }

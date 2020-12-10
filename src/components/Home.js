@@ -166,11 +166,7 @@ function Home() {
         </div>
       </div>
 
-      {isVisible && (
-        <Suspense fallback={<div />}>
-          <Footer />
-        </Suspense>
-      )}
+      {isVisible && <Suspense fallback={<div />}>{/* <Footer /> */}</Suspense>}
     </React.Fragment>
   );
 }
