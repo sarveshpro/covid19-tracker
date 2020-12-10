@@ -91,9 +91,9 @@ function Navbar({
                 <Icon.HelpCircle {...activeNavIcon('/about')} />
               </span>
             </Link> */}
-            <span>
+            {/* <span>
               <SunMoon {...{darkMode}} />
-            </span>
+            </span> */}
           </React.Fragment>
         )}
       </div>

@@ -3706,7 +3706,7 @@ footer {
     .Navbar,
     .expand,
     .navbar-right {
-      background: #1e1e30 !important;
+      background: #111016 !important;
     }
   }
 
@@ -4031,11 +4031,11 @@ footer {
 // Dark Mode
 
 .dark-mode {
-  background: #161625 !important;
+  background: #000000 !important;
   color: #bdbdbd;
 
   .switch-wrapper > div {
-    background: #161625 !important;
+    background: #191625 !important;
   }
 
   .is-tested {
@@ -4047,7 +4047,7 @@ footer {
   }
 
   .expand {
-    background: #1e1e30 !important;
+    background: #111016 !important;
   }
 
   .Navbar,
@@ -4062,11 +4062,11 @@ footer {
   .table {
     .cell {
       &:first-child {
-        background: #1e1e30 !important;
+        background: #111016 !important;
       }
 
       &.heading {
-        background: #1e1e30 !important;
+        background: #111016 !important;
 
         &:hover {
           background: #212130 !important;
@@ -4077,14 +4077,14 @@ footer {
     .is-highlighted,
     .is-total {
       .cell {
-        background: #1e1e30 !important;
+        background: #111016 !important;
       }
     }
   }
 
   .Search {
     input {
-      background: #1e1e30 !important;
+      background: #111016 !important;
     }
   }
 
@@ -4105,10 +4105,10 @@ footer {
 
     .breadcrumb {
       ul {
-        background: #1e1e30 !important;
+        background: #111016 !important;
 
         &::after {
-          border-bottom-color: #1e1e30 !important;
+          border-bottom-color: #111016 !important;
         }
 
         li {
@@ -4150,9 +4150,9 @@ footer {
       }
     }
 
-    .maplegend {
-      background: #161625 !important;
-    }
+    // .maplegend {
+    //   background: #161625 !important;
+    // }
 
     .meta {
       h1 {
@@ -4261,7 +4261,7 @@ footer {
 
   .tab {
     &.focused {
-      background: #1e1e30 !important;
+      background: #111016 !important;
       color: #bdbdbd !important;
     }
   }
@@ -4278,7 +4278,7 @@ footer {
     .state-selection {
       .dropdown {
         select {
-          background: #1e1e30;
+          background: #111016;
           background-image: linear-gradient(45deg, transparent 50%, $gray 50%),
             linear-gradient(135deg, $gray 50%, transparent 50%);
           background-position: calc(100% - 13px) 50%, calc(100% - 8px) 50%;
@@ -4331,38 +4331,38 @@ footer {
 
   .Demographics {
     .filters {
-      background: #1e1e30 !important;
-      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #1e1e30;
+      background: #111016 !important;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #111016;
     }
 
     .legend {
-      background: #1e1e30 !important;
+      background: #111016 !important;
     }
 
     .react-date-picker {
-      background: #1e1e30;
+      background: #111016;
       border-color: #9494941a !important;
     }
 
     .modal-content {
-      background: #1e1e30 !important;
+      background: #111016 !important;
     }
 
     .modal {
-      background: #1e1e30bb !important;
+      background: #111016bb !important;
     }
   }
 
   .StateDropdown {
     .dropdown {
-      background: #1e1e30 !important;
+      background: #111016 !important;
     }
   }
 
   .TableLoader {
     svg {
       rect {
-        fill: #1e1e30 !important;
+        fill: #111016 !important;
       }
     }
   }
