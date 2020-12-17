@@ -81,32 +81,9 @@ function Navbar({
                 <Icon.Home {...activeNavIcon('/')} />
               </span>
             </Link>
-            {/* <Link to="/blog">
-              <span>
-                <Icon.Book {...activeNavIcon('/blog')} />
-              </span>
-            </Link>
-            <Link to="/about">
-              <span>
-                <Icon.HelpCircle {...activeNavIcon('/about')} />
-              </span>
-            </Link> */}
-            {/* <span>
-              <SunMoon {...{darkMode}} />
-            </span> */}
           </React.Fragment>
         )}
       </div>
-
-      {/* {transitions.map(({item, key, props}) =>
-        item ? (
-          <animated.div key={key} style={props}>
-            <Expand {...{pages, setExpand, darkMode, windowSize}} />
-          </animated.div>
-        ) : (
-          <animated.div key={key} style={props}></animated.div>
-        )
-      )} */}
     </animated.div>
   );
 }
