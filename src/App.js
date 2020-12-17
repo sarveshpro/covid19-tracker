@@ -12,7 +12,7 @@ const State = lazy(() => import('./components/State'));
 const LanguageSwitcher = lazy(() => import('./components/LanguageSwitcher'));
 
 const App = () => {
-  const darkMode = useDarkMode(false);
+  const darkMode = useDarkMode(true);
   const [showLanguageSwitcher, setShowLanguageSwitcher] = useState(false);
   const location = useLocation();
 
