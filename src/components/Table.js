@@ -272,10 +272,7 @@ function Table({
               </div>
             </div>
 
-            <h5 className="text">
-              {t('Compiled from State Govt. numbers')},{' '}
-              <Link to="/about">{t('know more')}!</Link>
-            </h5>
+            <h5 className="text">{t('Compiled from State Govt. numbers')}</h5>
           </animated.div>
         ) : null
       )}

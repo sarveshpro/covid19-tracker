@@ -14,7 +14,6 @@ const MapExplorer = lazy(() => import('./MapExplorer'));
 const Actions = lazy(() => import('./Actions'));
 const Table = lazy(() => import('./Table'));
 const Minigraphs = lazy(() => import('./Minigraphs'));
-const Footer = lazy(() => import('./Footer'));
 const Search = lazy(() => import('./Search'));
 const Level = lazy(() => import('./Level'));
 const MapSwitcher = lazy(() => import('./MapSwitcher'));
@@ -162,8 +161,6 @@ function Home() {
           )}
         </div>
       </div>
-
-      {isVisible && <Suspense fallback={<div />}>{/* <Footer /> */}</Suspense>}
     </React.Fragment>
   );
 }
